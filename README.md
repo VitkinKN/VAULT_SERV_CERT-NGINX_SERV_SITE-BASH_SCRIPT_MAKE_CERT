@@ -340,7 +340,7 @@ sudo systemctl enable nginx
 - *На Virtual Box поднял DHCP сервер с адресом 192.168.56.1.
 На Windows 10  прописал в файле hosts.ics:  192.168.56.5 www.vaultmkmycrazy.com
 На Виртуальной машине Linux с сервером nginx прописал в файле /etc/hosts: 192.168.56.5 www.vaultmkmycrazy.com*
-![](https://github.com/VitkinKN/VAULT_SERV_CERT-NGINX_SERV_SITE-BASH_SCRIPT_MAKE_CERT/blob/master/IMG/1.JPG )
+![](https://github.com/VitkinKN/VAULT_SERV_CERT-NGINX_SERV_SITE-BASH_SCRIPT_MAKE_CERT/blob/master/IMG/2.JPG )
 #### 9. Создайте скрипт, который будет генерировать новый сертификат в vault: генерируем новый сертификат так, чтобы не переписывать конфиг nginx; перезапускаем nginx для применения нового сертификата. 
 - *Делаем файлы для ключей: .vault-unseal. файл для токена существует: .vault-token.*
 ```
